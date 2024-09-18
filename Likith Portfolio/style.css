@@ -1,0 +1,114 @@
+/* Custom styles for coder theme */
+body {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* Matrix Rain Effect for Background */
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .bg-hero-coder {
+    background: url('assets/code-background.jpg') center/cover no-repeat;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #111;
+    transition: all 0.3s ease;
+  }
+  
+  nav:hover {
+    background-color: #222;
+  }
+  
+  /* Buttons */
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hover Animations */
+  .shadow-lg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Custom styles for coder theme */
+body {
+    font-family: 'Roboto Mono', monospace;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Matrix Rain Effect for Background */
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .bg-hero-coder {
+    background: url('assets/code-background.jpg') center/cover no-repeat;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #111;
+    transition: all 0.3s ease;
+  }
+  
+  nav:hover {
+    background-color: #222;
+  }
+  
+  /* Buttons */
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hover Animations */
+  .shadow-lg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Light Mode */
+  body.light-mode {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  body.light-mode nav {
+    background-color: #eaeaea;
+  }
+  
+  body.light-mode .bg-gray-800 {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  body.light-mode .bg-gray-900 {
+    background-color: #e0e0e0;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode nav {
+    background-color: #111;
+  }
+  
+  body.dark-mode .bg-gray-800 {
+    background-color: #333;
+  }
+  
+  body.dark-mode .bg-gray-900 {
+    background-color: #222;
+  }
+  

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likith Kumar N | Coder Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav class="bg-black shadow-md sticky top-0 z-50 py-4">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-green-400">LIKITH KUMAR N</h1>
+      <div class="hidden md:flex space-x-6 text-green-400">
+        <a href="#experience" class="hover:text-green-300">Experience</a>
+        <a href="#projects" class="hover:text-green-300">Projects</a>
+        <a href="#education" class="hover:text-green-300">Education</a>
+        <a href="#skills" class="hover:text-green-300">Skills</a>
+        <a href="#certifications" class="hover:text-green-300">Certifications</a>
+        <a href="#contact" class="hover:text-green-300">Contact</a>
+      </div>
+      <button id="theme-toggle" class="bg-green-400 hover:bg-green-500 text-black px-4 py-2 rounded-lg">Dark Mode</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Coder Background -->
+  <section class="relative bg-hero-coder h-screen flex items-center justify-center text-center text-white">
+    <div class="z-10">
+      <h2 class="text-6xl font-bold">Hi, I'm Likith Kumar N</h2>
+      <p class="mt-4 text-2xl">Web Developer</p>
+      <div class="mt-8">
+        <a href="#contact" class="bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-6 rounded-full">Get In Touch</a>
+        <a href="RESUME UPLOAD.PDF" download="Likith_1DT21IS079" class="bg-transparent border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-black py-3 px-6 rounded-full ml-4">Download Resume</a>
+      </div>
+    </div>
+    <div class="absolute inset-0 bg-black opacity-60 z-0"></div>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas" class="absolute inset-0"></canvas>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-8">Experience</h2>
+    <div class="bg-gray-800 shadow-md rounded-lg p-6">
+      <h3 class="text-3xl font-semibold text-green-400">Full-Stack Web Developer</h3>
+      <p class="text-gray-400">Varcons Technologies Pvt Ltd (Nov 2023 - Dec 2023)</p>
+      <ul class="list-disc list-inside text-gray-400 mt-4 space-y-2">
+        <li>Developed mission-critical software for a space exploration project.</li>
+        <li>Handled full-stack development tasks and software optimization.</li>
+        <li>Collaborated closely with the engineering team to achieve performance goals.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-8">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-6 shadow-lg rounded-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 class="text-2xl font-semibold text-green-400">Space Exploration Dashboard</h3>
+          <p class="text-gray-400">React.js, Node.js, Express, MongoDB</p>
+          <p class="mt-4">Built a comprehensive dashboard for space exploration project management.</p>
+          <a href="https://github.com/likithkumarN/SpaceExpoloration.git" class="mt-4 inline-block text-green-500 hover:underline">View Project</a>
+        </div>
+        <div class="bg-gray-800 p-6 shadow-lg rounded-lg hover:shadow-xl transition-transform transform hover:scale-105">
+          <h3 class="text-2xl font-semibold text-green-400">Real-Time Collaborative Coding</h3>
+          <p class="text-gray-400">React, Node.js, Socket.io, PeerJS</p>
+          <p class="mt-4">Built an interactive platform for real-time code collaboration with chat and video.</p>
+          <a href="https://github.com/likithkumarN/Collaborative-code.git" class="mt-4 inline-block text-green-500 hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-8">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg w-60 text-center">
+        <h3 class="text-green-400 text-xl font-semibold">Languages</h3>
+        <p class="text-gray-400 mt-4">C/C++, Python, JavaScript, MangoDB</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg w-60 text-center">
+        <h3 class="text-green-400 text-xl font-semibold">Frameworks</h3>
+        <p class="text-gray-400 mt-4">Node.js, React, Express</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Education Section -->
+<section id="education" class="py-16 container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-8">Education</h2>
+    <div class="bg-gray-800 shadow-md rounded-lg p-6">
+      <h3 class="text-3xl font-semibold text-green-400">Dayananda Sagar Academy of Technology and Management</h3>
+      <p class="text-gray-400">Bachelor of Engineering, Information Science – 7.5 CGPA (Mar 2025)</p>
+      <h3 class="text-3xl font-semibold text-green-400 mt-4">Vijaya PU College</h3>
+      <p class="text-gray-400">PCMB, Grade: 71 percent (July 2021)</p>
+      <h3 class="text-3xl font-semibold text-green-400 mt-4">Vijaya High School</h3>
+      <p class="text-gray-400">Grade: 79 percent (April 2019)</p>
+    </div>
+  </section>
+  
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-16 bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-8">Certifications</h2>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <ul class="list-disc list-inside text-gray-400">
+          <li>NPTEL: Programming in C</li>
+          <li>Simpli Learn: Programming in C++</li>
+          <li>Infosys Spring Board: Python</li>
+          <li>Accenture: Forage Software Engineer Job Simulation</li>
+          <li>Cisco Networks JS Essentials</li>
+          <li>AWS APAC: Simple Task in Forage</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-8">Get In Touch</h2>
+    <div class="bg-gray-800 p-6 rounded-lg text-center">
+      <p class="text-gray-400">📧 Email: <a href="mailto:likithkumar2905@gmail.com" class="text-green-500">likithkumar2905@gmail.com</a></p>
+      <p class="text-gray-400 mt-4">📍 Location: Bengaluru, India</p>
+      <div class="mt-6 flex justify-center space-x-4">
+        <a href="https://linkedin.com/in/likith-kumar-n" class="text-green-500 hover:text-green-300">LinkedIn</a>
+        <a href="https://github.com/likithkumarN" class="text-green-500 hover:text-green-300">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
